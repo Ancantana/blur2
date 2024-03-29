@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('path/to/your/custom-font.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'CustomFont', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#sketch-container {
+  position: relative;
+}
